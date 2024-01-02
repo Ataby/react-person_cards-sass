@@ -12,12 +12,11 @@ console.log(data)
           <h1>{name}</h1>
           <h2>{job}</h2>
           <p>{comment}</p>
-          <img src= {img}></img>
+            <img src={img} alt="profile"></img>
           <div className={CardStyle.buttons} >
             <button>Small</button>
             <button>Large</button>
           </div>
-
         </div>
       )
     })}
